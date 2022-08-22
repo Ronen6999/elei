@@ -5008,7 +5008,7 @@ ${readmore}
 『𝑾𝒆𝒆𝒃』🍁
 \`\`\`𝚊𝚗𝚒𝚖𝚎-𝚙𝚒𝚌, 𝚊𝚗𝚒𝚖𝚎 𝚜𝚎𝚊𝚛𝚌𝚑 𝚝𝚎𝚡𝚝, 𝚊𝚗𝚒𝚖𝚎 𝚗𝚎𝚠𝚜, 𝚊𝚗𝚒𝚖𝚎 𝚛, 𝚙𝚘𝚔𝚎-𝚙𝚒𝚌, 𝚙𝚘𝚔𝚎-𝚜𝚎𝚊𝚛𝚌𝚑, 𝚖𝚊𝚗𝚐𝚊-𝚜𝚎𝚊𝚛𝚌𝚑, 𝚠𝚊𝚒𝚏𝚞, 𝚕𝚘𝚕𝚒, 𝚗𝚎𝚔𝚘\`\`\`
 
-『𝑹𝒂𝒏𝒅𝒐𝒎 』🍁
+『𝑹𝒂𝒏𝒅𝒐𝒎』🍁
 \`\`\`𝚌𝚘𝚞𝚙𝚕𝚎𝚙𝚙, 𝚠𝚊𝚒𝚏𝚞, 𝚗𝚎𝚔𝚘, 𝚚𝚞𝚘𝚝𝚎𝚜, 𝚏𝚊𝚌𝚝\`\`\`
 
 『𝑶𝒘𝒏𝒆𝒓』🍁
@@ -5017,15 +5017,15 @@ ${readmore}
 『𝑺𝒕𝒊𝒄𝒌𝒆𝒓』🍁
 \`\`\`\𝚜-𝚜𝚕𝚊𝚙, 𝚜-𝚍𝚊𝚗𝚌𝚎, 𝚜-𝚍𝚊𝚗𝚌𝚎, 𝚜-𝚋𝚘𝚗𝚔, 𝚜-𝚕𝚒𝚌𝚔 𝚜-𝚙𝚊𝚝, 𝚜-𝚌𝚞𝚍𝚍𝚕𝚎, 𝚜-𝚋𝚘𝚗𝚔, 𝚜-𝚑𝚒𝚐𝚑𝚏𝚒𝚟𝚎, \`\`\`
 
-𝑹𝒆𝒂𝒄𝒕𝑹𝒆𝒂𝒄𝒕 』🍁
+『𝑹𝒆𝒂𝒄𝒕𝑹𝒆𝒂𝒄𝒕』🍁
 \`\`\`𝚙𝚊𝚝, 𝚑𝚞𝚐, 𝚔𝚒𝚜𝚜, 𝚜𝚕𝚊𝚙, 𝚌𝚞𝚍𝚍𝚕𝚎, 𝚙𝚘𝚔𝚎, 𝚍𝚊𝚗𝚌𝚎, 𝚋𝚒𝚝𝚎, 𝚢𝚎𝚎𝚝, 𝚕𝚒𝚌𝚔, 𝚑𝚒𝚐𝚑𝚏𝚒𝚟𝚎, 𝚜𝚖𝚒𝚕𝚎, 𝚙𝚞𝚗𝚌𝚑\`\`\`
 
-*━━━『 𝑵𝑺𝑭𝑾 』━━━*
-\`\`\`𝙽𝚘𝚝 𝚟𝚒𝚜𝚒𝚋𝚕𝚎 𝚙𝚞𝚋𝚕𝚒𝚌𝚕𝚢 𝙿𝚕𝚎𝚊𝚜𝚎 𝚌𝚑𝚎𝚌𝚔 -𝚖𝚎𝚗𝚞 \`\`\`
+『 𝑵𝑺𝑭𝑾 』👀
+\`\`\`𝙽𝚘𝚝 𝚟𝚒𝚜𝚒𝚋𝚕𝚎 𝚙𝚞𝚋𝚕𝚒𝚌𝚕𝚢 𝙿𝚕𝚎𝚊𝚜𝚎 𝚌𝚑𝚎𝚌𝚔 ${prefix}𝚖𝚎𝚗𝚞 \`\`\`
 
 *📌𝙽𝚘𝚝𝚎*
  <<𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙>> 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚒𝚗𝚏𝚘 𝚘𝚏 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝙲𝚘𝚖𝚖𝚊𝚗𝚍
-_🌟Eg: -anime help_`;
+_🌟Eg:${prefix}anime help_`;
 
           await Void.sendMessage(
             from,
@@ -5075,7 +5075,7 @@ _🌟Eg: -anime help_`;
         //Void.sendMessage(m.chat,{video:fs.readFileSync('./src/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m})
         if (args[0] == "1") {
           let hlp2 = `
-╔════⧫ *💠Group Menu💠*
+╔════⧫ *🎑Group Menu🎑*
 ║ ${prefix}gclink
 ║ ${prefix}setgroupp
 ║ ${prefix}setname [text]
@@ -5136,7 +5136,7 @@ _🌟Eg: -anime help_`;
         }
         if (args[0] == "2") {
           let hlp2 = `
-╔═══⧫ *💠Downloader 💠*
+╔═══⧫ *🎑Downloader🎑*
 ║${prefix}play [name]
 ║${prefix}song [url/name]
 ║${prefix}video [url/name]
@@ -5157,14 +5157,14 @@ _Press the button blew for detailed menu_
             {
               buttonId: `${prefix}helpt`,
               buttonText: {
-                displayText: "⇐",
+                displayText: "⬅️",
               },
               type: 1,
             },
             {
               buttonId: `${prefix}helpt 3`,
               buttonText: {
-                displayText: "⇒",
+                displayText: "➡️",
               },
               type: 1,
             },
@@ -5194,7 +5194,7 @@ _Press the button blew for detailed menu_
         }
         if (args[0] == "3") {
           let hlp2 = `
-╔════⧫ *💠 Search💠*
+╔════⧫ *🎑Search🎑*
 ║${prefix}play [query]
 ║${prefix}yts [query]
 ║${prefix}google [query]
@@ -7691,13 +7691,13 @@ for (let i = 0; i < nn; i++) {
               image: {
                 url: images,
               },
-              caption: `*-------「 Take it,you prevert 」-------*`,
+              caption: `*-------「 Take it,you pevert 」-------*`,
               footer: Void.user.name,
               headerType: 4,
               contextInfo: {
                 externalAdReply: {
                   title: LangG.title,
-                  body: `𝑍𝑒𝑟𝑜-𝑇𝑤𝑜 𝑁𝑆𝐹𝑊`,
+                  body: `𝑍𝑒𝑟𝑜-𝑁𝑆𝐹𝑊`,
                   thumbnail: log0,
                   mediaType: 2,
                   mediaUrl: ``,
@@ -8247,7 +8247,7 @@ for (let i = 0; i < nn; i++) {
             image: {
               url: anu.thumbnail,
             },
-            caption: `  𝒁𝒆𝒓𝒐 𝑻𝒘𝒐 𝒀𝑻 𝑷𝒍𝒂𝒚✨
+            caption: `  *ELEI* 𝒀𝑻 𝑷𝒍𝒂𝒚✨
 *Title:* ${anu.title}
 *Duration:* ${anu.timestamp}
 *Viewers:* ${anu.views}
@@ -8274,7 +8274,7 @@ for (let i = 0; i < nn; i++) {
                 video: {
                   url: args[0],
                 },
-                caption: "With love from 𝒁𝒆𝒓𝒐 𝑻𝒘𝒐✨",
+                caption: "With love from ELEI✨",
                 contextInfo: {
                   externalAdReply: {
                     title: LangG.BotName,
@@ -8615,7 +8615,7 @@ Click on the button blew to see the list.
                 listType: "SINGLE_SELECT",
                 sections: [
                   {
-                    title: "•Zero-Two•",
+                    title: "•ELEI•",
                     rows: [
                       {
                         title: "All Commands",
@@ -8625,7 +8625,7 @@ Click on the button blew to see the list.
                     ],
                   },
                   {
-                    title: "•Zero-Two•",
+                    title: "ELEI",
                     rows: [
                       {
                         title: "Group Menu",
@@ -8660,7 +8660,7 @@ Click on the button blew to see the list.
                         rowId: `${prefix}helpt 10`,
                       },
                       {
-                        title: "𝑍𝑒𝑟𝑜-𝑇𝑤𝑜 𝑁𝑆𝐹𝑊",
+                        title: "*ELEI NSFW*",
                         description: "Displays The List Of Fun Features",
                         rowId: `${prefix}helpt 11`,
                       },
@@ -8982,12 +8982,12 @@ case 'waifu': {
                 prefix + command
               }\n*🧩Category:* Moderation\n*🛠️Usage:* ${
                 prefix + command
-              } bug \n\n*📚Description:* Sends bug to the Real Secktor developers.`
+              } bug \n\n*📚Description:* Sends bug to the developer(Ronen).`
             );
             return;
           }
           if (!text) return m.reply(`Enter The Bug Example\n\n${command} Menu Error `);
-          Void.sendMessage(`919628516236@s.whatsapp.net`, {
+          Void.sendMessage(`916000530073@s.whatsapp.net`, {
             text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}`,
           });
@@ -9005,7 +9005,7 @@ Report Message: ${text}`,
               prefix + command
             },-alive\n*🧩Category:* General\n*🛠️Usage:* ${
               prefix + command
-            }\n\n*📚Description:* Shows that ,is Secktor Botto alive?.`
+            }\n\n*📚Description:* Shows that, is Elei Botto alive?.`
           );
           return;
         }
@@ -9091,7 +9091,7 @@ Type ${prefix}menu for my command list.\n
           let ter = `
  🔰 *${LangG.title}* 🔰
 
-*🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
+*🌟Description:* A WhatsApp bot with rich features, developed by Ronen to make your WhatsApp enjoyable.
 
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
@@ -9138,18 +9138,18 @@ Type ${prefix}menu for my command list.\n
                 prefix + command
               },${prefix}tq,${prefix}repo\n*🧩Category:* General\n*🛠️Usage:* ${
                 prefix + command
-              }\n\n*📚Description:* Shows list of Developers of Secktor.`
+              }\n\n*📚Description:* Shows list of Developers of Elei.`
             );
             return;
           }
 
           anu = `Hello, my ${pushname} ${LangG.greet}.
 
-*━━━ 『 𝑺𝒆𝒄𝒌𝒕𝒐𝒓 𝑫𝒆𝒗𝒔 』 ━━━*
-*⭐Ikshwaku Pandey:* For Development and Base and Modules.
-*⭐Sasank Reddy:* For Theme Design, Development,Website.
+*━━━ 『  *ELEI*  』 ━━━*
+*⭐Ronen Singha:* For Development and Base and Modules.
+*⭐Based bot:* On Engalei.
 
- *Give a ⭐ to our work on Github if you like our team project*`;
+ *WE HOPE YOU LIKED OUR BOT. ENJOY GUYS~*`;
           let message = await prepareWAMessageMedia(
             {
               image: fs.readFileSync("./assets/SocialLogo 1.png"),
@@ -9172,13 +9172,13 @@ Type ${prefix}menu for my command list.\n
                     {
                       urlButton: {
                         displayText: "Web",
-                        url: "",
+                        url: "coming soon",
                       },
                     },
                     {
                       urlButton: {
                         displayText: "⭐Repo",
-                        url: "https://github.com/SecktorBot/Secktor-Md",
+                        url: "https://github.com/Ronen6999/elei",
                       },
                     },
                     {
