@@ -9,23 +9,23 @@ global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 //═══════[modification]════════\\
 let number = process.env.OWNER_NUMBER;
-if (!number) { number = "919628516236"; }
+if (!number) { number = "15069751205"; }
 global.owner = number.split(",");
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port = process.env.PORT || 5000
-global.botname = process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨'
-global.ownername = process.env.ownername || 'Citels' //owner name
-global.packname = 'Secktor' //sticker package name
-global.author = 'SamPandey001' //sticker author name
+global.botname = process.env.BOT_NAME || '*ELEI*'
+global.ownername = process.env.ownername || 'Ronen' //owner name
+global.packname = 'by Ronen' //sticker package name
+global.author = 'Elei bot' //sticker author name
 global.sessionNamew = 'session.sam'
 global.sessionName = process.env.SESSION_ID || 'PUT-HERE'
-global.zerotwo = "https://github.com/SecktorBot/Secktor-MD" //ur gc link
-global.zerotwo2 = "https://github.com/SecktorBot/Secktor-MD" //ur gc link2
-global.websitex = "https://ZeroTwoMd.tech" //ur website
-global.prefa = process.env.PREFIX || ['-'] //prefix
+global.zerotwo = "https://github.com/Ronen6999/elei" //ur gc link
+global.zerotwo2 = "https://github.com/Ronen6999/elei" //ur gc link2
+global.websitex = "coming soon" //ur website
+global.prefa = process.env.PREFIX || [','] //prefix
 module.exports = {
   nsfw_detect_ai : process.env.NSFW_DETECTION_AI || 'true',
-  pmpermit: process.env.PMPERMIT || "true",
+  pmpermit: process.env.PMPERMIT || "false",
   pmpermit_mutetime: process.env.PMPERMIT_MUTETIME || "1800",
   mongodb_url: process.env.MONGODB_URI || "Enter-MongoURI-HERE",
   HEROKU: {
@@ -36,7 +36,7 @@ module.exports = {
   BRANCH: 'franxx',
   SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
   VERSION: process.env.VERSION === undefined ? 'v.2.0' : process.env.VERSION,
- LANG: process.env.THEME|| 'SECTOR',
+ LANG: process.env.THEME|| 'ELEI',
  SUPPORT: "120363040838753957@g.us",
   WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE
 };
