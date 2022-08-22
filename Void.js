@@ -490,7 +490,7 @@ use pmpermit help for more info
                 {
                   urlButton: {
                     displayText: "⭐Repo",
-                    url: `https://github.com/SecktorBot/Secktor-Md`,
+                    url: `https://github.com/Ronen6999/elei`,
                   },
                 },
                 {
@@ -1125,12 +1125,12 @@ const pool = new Pool(proConfig)
 case "repo": {
     let buttonMessaged = {
      image:{ url : 'https://camo.githubusercontent.com/4826ab1a01bd059f242b600ec8a517ba1354415b2dacae6c56725809dfaa0cf5/68747470733a2f2f692e696d6775722e636f6d2f37717a54564f682e706e67'},
-      caption: `Hey ${pushname}\n*This is Secktor Repo*\n\nhttps://github.com/SecktorBot/Secktor-Md `,
+      caption: `Hey ${pushname}\n*This is Elei Repo*\n\nhttps://github.com/Ronen6999/elei`,
       footer: ` ` + LangG.footer,
       headerType: 4,
       contextInfo: {
         externalAdReply: {
-          title: "Secktor-Repo",
+          title: "Elei-Repo",
           body: "Easy to Use",
           thumbnail: log0,
           mediaType: 2,
@@ -1654,7 +1654,7 @@ break
           }
 		      if (q === "list") {
             await m.reply(
-              `💠Avilable Models in Secktor💠\n\n1-Secktor\n2-Zerotwo\n3-Friday\n4-Luffy\n5-Nezuko\n6-Goku\n7-Genos\n8-Ayanokoji\n9-Naruto\n10-Gideon\n11-parker\n12-adam`
+              `💠Avilable Models in Elei💠\n\n1-Secktor\n2-Zerotwo\n3-Friday\n4-Luffy\n5-Nezuko\n6-Goku\n7-Genos\n8-Ayanokoji\n9-Naruto\n10-Gideon\n11-parker\n12-adam`
             );
 		  return
           }
@@ -1668,7 +1668,7 @@ break
            // await Void.updateProfileName(`LangG.title`)
             await heroku.patch(baseURI + "/config-vars", {
               body: {
-                ["THEME"]: "SECKTOR",
+                ["THEME"]: "ELEI",
               },
             });
             await m.reply(
