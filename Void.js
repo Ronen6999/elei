@@ -1664,7 +1664,7 @@ break
               token: Config.HEROKU.API_KEY,
             });
             let baseURI = "/apps/" + Config.HEROKU.APP_NAME;
-          if (q === "secktor") {
+          if (q === "elei") {
            // await Void.updateProfileName(`LangG.title`)
             await heroku.patch(baseURI + "/config-vars", {
               body: {
@@ -1682,7 +1682,7 @@ break
       //      await Void.updateProfileName(`LangG.title`)
             await heroku.patch(baseURI + "/config-vars", {
               body: {
-                ["THEME"]: "ZEROTWO",
+                ["THEME"]: "ELEI-GF",
               },
             });
             await m.reply(
