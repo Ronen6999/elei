@@ -1,7 +1,7 @@
 {
-  "name": "Secktor-Md",
+  "name": "Elei-Md",
   "version": "0.0.2",
-  "description": "Multi device wa bot created by Team CitelVoid.",
+  "description": "Multi device wa bot created by Team Ronen.",
   "main": "core.js",
   "type": "commonjs",
 "scripts": {
@@ -22,7 +22,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "SamPandey001",
+  "author": "Ronen",
   "license": "GNU",
  "dependencies": {
   "secktor-api": "1.1.0"
