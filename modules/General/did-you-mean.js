@@ -17,7 +17,7 @@ let todlinkt = [
         if (icmd) {
           let buttonMessaged = {
            image:{ url : picsecktorr},
-            caption: `Did you mean ${prefix}help?`,
+            caption: `Do you mean ${prefix}help?`,
             footer: ` ` + LangG.footer,
             headerType: 4,
             contextInfo: {
