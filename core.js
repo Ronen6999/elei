@@ -238,8 +238,8 @@ setInterval(() => {
                 templateButtons: [
                   {
                     urlButton: {
-                      displayText: "⭐Repo",
-                      url: "https://github.com/CitelVoid/Secktor-Md",
+                      displayText: "⭐Support-gc",
+                      url: "https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO",
                     },
                   },
                 ],
@@ -428,7 +428,7 @@ await Void.sendMessage(anu.id, buttonMessage)
   *Member count* : ${xmembers}th
   ${welcome_message}\n
   *⭐Website* coming soon
-  *⭐Bot Group:* 
+  *⭐Bot Group:* https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
   *Powered by Elei-bot*
 
   `
