@@ -1,7 +1,7 @@
 {
   "name": "Elei-Md",
-  "version": "0.0.2",
-  "description": "Multi device wa bot created by Team Ronen.",
+  "version": "0.0.3",
+  "description": "Multi device wa bot created by Team Ronenbots.",
   "main": "core.js",
   "type": "commonjs",
 "scripts": {
@@ -12,20 +12,25 @@
     "termux",
     "whatsapp",
     "SamPandey001",
-    "Zero-Two",
+    "Secktor",
     "wabase-md",
-    "whatsappbot-md",
     "base",
-    "advanced-bot",
     "baileys-md",
     "bot",
     "bot-md",
     "multi-device"
   ],
+  "base-author": "Ronen",
   "author": "Ronen",
   "license": "GNU",
  "dependencies": {
-  "secktor-api": "1.1.0"
+   "pg": "latest",
+  "secktor-api": "1.1.0",
+   "anime-wallpaper": "latest",
+   "heroku":"latest",
+   "got": "^11.8.0",
+   "sequelize": "latest",
+    "dotenv": "^8.2.0"
   },
   "directories": {
     "lib": "lib",
@@ -39,5 +44,5 @@
   "bugs": {
     "url": "https://github.com/SamPandey001/Secktor-Md/issues"
   },
-  "homepage": "https://github.com/Ronen6999/elei/blob/main/README.md"
+  "homepage": "https://github.com/SamPandey001/Secktor-Md#readme"
 }
