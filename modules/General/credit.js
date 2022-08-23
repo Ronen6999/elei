@@ -12,18 +12,18 @@
                 prefix + command
               },-tq,-repo\n*🧩Category:* General\n*🛠️Usage:* ${
                 prefix + command
-              }\n\n*📚Description:* Shows list of Developers of Secktor.`
+              }\n\n*📚Description:* Shows list of Developers of Elei.`
             );
             return;
           }
 
           anu = `Hello, my ${pushname} ${LangG.greet}.
 
-*━━━ 『 𝑺𝒆𝒄𝒌𝒕𝒐𝒓 𝑫𝒆𝒗𝒔 』 ━━━*
-*⭐Ikshwaku Pandey:* For Development and Base and Modules.
-*⭐Sasank Reddy:* For Theme Design, Development,Website.
+*━━━ 『 *ELEI DEVS* 』 ━━━*
+*⭐Ronen Singha:* For Development and Base and Modules.
+*⭐Based bot:* Based on Engalei.
 
- *Give a ⭐ to our work on Github if you like our team project*`;
+ *I hope you liked our bot💕. Enjoy guys!*`;
           let message = await prepareWAMessageMedia(
             {
               image: fs.readFileSync("./assets/SocialLogo 1.png"),
@@ -51,8 +51,8 @@
                     },
                     {
                       urlButton: {
-                        displayText: "⭐Repo",
-                        url: "https://github.com/SecktorBot/Secktor-Md",
+                        displayText: "⭐Support Gc",
+                        url: "https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO",
                       },
                     },
                     {
