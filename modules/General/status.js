@@ -46,7 +46,7 @@
           let ter = `
  🔰 *${LangG.title}* 🔰
 
-*🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
+*🌟Description:* A WhatsApp bot with rich features, Developed hy Ronen to make your whatsapp for enjoyable.
 
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
