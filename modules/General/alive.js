@@ -10,7 +10,7 @@
               prefix + command
             },-alive\n*🧩Category:* General\n*🛠️Usage:* ${
               prefix + command
-            }\n\n*📚Description:* Shows that ,is Secktor Botto alive?.`
+            }\n\n*📚Description:* Shows that ,is Elei Bot alive?.`
           );
           return;
         }
